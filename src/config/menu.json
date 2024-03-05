@@ -1,0 +1,35 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog"
+    },
+    {
+      "name": "Project",
+      "url": "/project"
+    },
+    {
+      "name": "Elements",
+      "url": "/elements"
+    },
+    {
+      "name": "Filter",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Categories",
+          "url": "/categories"
+        },
+        {
+          "name": "Tags",
+          "url": "/tags"
+        }
+      ]
+    }
+  ]
+}
